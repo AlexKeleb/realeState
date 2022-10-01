@@ -1178,11 +1178,18 @@ body {
   display: flex;
   gap: 20px;
   align-items: center;
+  color: inherit;
 }
 .autor-item-reviews__avatar {
   flex: 0 0 48px;
   border-radius: 50%;
   overflow: hidden;
+}
+.autor-item-reviews__avatar img {
+  transition: transform 0.3s ease 0s;
+}
+.autor-item-reviews__avatar:hover img {
+  transform: scale(1.1);
 }
 .autor-item-reviews__body {
 }
