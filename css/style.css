@@ -250,6 +250,23 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+@media (max-width: 1199.98px) {
+  .header__container {
+    min-height: 80px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .header__container {
+    min-height: 60px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .header__container {
+    min-height: 50px;
+  }
+}
 .header__body {
   position: relative;
   margin: 0 auto;
@@ -360,6 +377,11 @@ body {
   .header__list {
     display: block;
     padding-top: 50px;
+  }
+  @media (max-width: 767.98px) {
+    .header__list {
+      padding-top: 0;
+    }
   }
   .header__item {
     margin: 0px 0px 20px 0px;
